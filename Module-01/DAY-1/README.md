@@ -20,13 +20,29 @@ To create a class named 'Student' with String variable 'name' and String variabl
  ```
 /*
 Program to implement a class & objects using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Dhinesh P
+RegisterNumber: 212222043001  
 */
 ```
 
 ## Sourcecode.java:
-
+```
+class Student
+{
+    String name;
+    String address;
+}
+public class Main
+{
+    public static void main(String[] args)
+   {
+        Student obj= new Student();        
+        obj.name="John";
+        obj.address="Chennai";
+        System.out.println(obj.name+" "+obj.address);
+    }
+}
+```
 
 
 
@@ -34,6 +50,7 @@ RegisterNumber:
 
 
 ## OUTPUT:
+<img width="495" height="206" alt="568447007-31c6edb0-12c7-4ae4-83c6-0b43f4bcc48a" src="https://github.com/user-attachments/assets/540e1240-efd1-49db-8946-42a953cc0a1a" />
 
 
 
